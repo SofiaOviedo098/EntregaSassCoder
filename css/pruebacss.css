@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none; }
+
+body {
+  text-decoration: none;
+  scroll-behavior: smooth; }
+  body button {
+    font-size: 3rem; }
+    body button:hover {
+      background-color: #ea2e5b; }
+
+header section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 8rem 3rem 12rem;
+  font-size: 3rem; }
+
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 35%; }
+
+img {
+  width: 40%; }
+
+nav {
+  background-color: gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-decoration: none; }
+  nav li {
+    list-style-type: none; }
+  nav .logo {
+    width: 10%; }
+  nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%; }
+
+header h1 {
+  display: flex;
+  align-items: flex-end;
+  font-size: 6rem;
+  margin-right: 1rem;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url(../public/header.jpg);
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-attachment: fixed; }
+
+/* main del index */
+main h2 {
+  text-align: center;
+  font-weight: bold;
+  text-align: end;
+  padding-right: 11rem;
+  margin-top: 150px;
+  background-color: #ea2e5b; }
+
+.container {
+  display: flex;
+  margin-top: 10px; }
+  .container p {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold; }
+  .container img {
+    height: 500px; }
+
+/* main castraciones */
+main h3 {
+  margin-top: 10rem;
+  font-size: 6rem;
+  background-color: gold; }
+
+.castracion {
+  display: flex;
+  font-size: 3rem;
+  justify-content: flex-end;
+  padding-top: 2rem;
+  align-items: center;
+  margin-bottom: 2rem; }
+  .castracion img {
+    width: 750px; }
+  .castracion h4 {
+    color: #ea2e5b;
+    font-size: 6rem;
+    padding-right: 8rem; }
+
+/* adopciones */
+.adopta h2 {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 15rem; }
+
+.adopta iframe {
+  margin: 350px;
+  padding: 2px; }
+
+.adopta h3 {
+  text-align: start;
+  margin-top: 1rem;
+  background-color: #ea2e5b;
+  font-weight: bold; }
+
+.jornadas {
+  display: flex;
+  font-size: 2rem;
+  margin-top: 5rem;
+  background-image: url(../PROYECTO-FINAL-OVIEDO/public/adoption.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: local;
+  text-align: end;
+  padding: 20rem; }
+  .jornadas button {
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-left: 2rem; }
+  .jornadas h3 {
+    font-size: 2rem;
+    align-items: flex-end;
+    text-align: end;
+    margin-bottom: 5px; }
+
+.funcionamiento {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .funcionamiento li {
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 100px;
+    font-size: 1rem;
+    align-items: center; }
+  .funcionamiento h3 {
+    font-size: 2rem; }
+
+.requisitos li {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  padding: 30px 100px;
+  font-size: 1rem;
+  align-items: center; }
+
+resumen {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  position: relative;
+  align-items: flex-end;
+  background-color: #ea2e5b; }
+  resumen h2 {
+    font-size: 3rem;
+    align-items: center;
+    background-color: #ea2e5b;
+    color: bisque;
+    text-align: center; }
+
+.perdidos-playa-union {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 35%;
+  padding-left: 27rem; }
+
+.encontrados-playa-union {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+  width: 35%;
+  padding-left: 27rem; }
+
+/* form publicar en perdidos y encontrados */
+.form {
+  background-color: gold;
+  padding: 2px; }
+
+.publicar {
+  top: 10px;
+  margin: 40px 450px;
+  display: flex;
+  padding: 4px; }
+  .publicar input {
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 40px; }
+  .publicar textarea {
+    padding: 50px;
+    text-align: center; }
+
+/* servicios */
+.serv h2 {
+  font-size: 5rem;
+  background-color: #ea2e5b;
+  text-align: center; }
+
+.botoneserv {
+  padding: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 5px;
+  background-image: url(../PROYECTO-FINAL-OVIEDO/public/serviiiiiii.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 200px;
+  background-attachment: fixed;
+  position: relative; }
+
+.veterinarias, .adiestradores, .peluquerias, .guarderias, .paseadores {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 200px; }
+  .veterinarias h3, .adiestradores h3, .peluquerias h3, .guarderias h3, .paseadores h3 {
+    flex-direction: row;
+    justify-content: center;
+    font-size: 4rem; }
+
+/* pagina de solidarios */
+.patita {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: 500px 100px;
+  text-align: center;
+  padding: 100px;
+  background-color: #ea2e5b;
+  align-items: center; }
+  .patita h2 {
+    margin: 100px; }
+
+.causasp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0rem;
+  padding: 1%; }
+  .causasp p {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly; }
+  .causasp h4 {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly; }
+  .causasp h2 {
+    align-items: center;
+    justify-content: center; }
+
+footer {
+  padding: 2rem;
+  display: grid;
+  grid-template-areas: "cont footernav footernav" "cont footernav footernav" "derechos derechos derechos";
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #161615;
+  color: aliceblue;
+  text-decoration: none; }
+  footer .footernav {
+    grid-area: footernav;
+    text-decoration: none; }
+    footer .footernav ul {
+      display: flex;
+      flex-direction: column; }
+    footer .footernav a {
+      text-decoration: none; }
+  footer .cont {
+    grid-area: cont;
+    padding: 1px; }
+    footer .cont h5 {
+      padding: 4px; }
+    footer .cont svg {
+      padding: 5px; }
+  footer .derechos {
+    grid-area: derechos;
+    margin: 1rem;
+    width: 100%; }
